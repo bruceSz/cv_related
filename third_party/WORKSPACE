@@ -1,0 +1,12 @@
+workspace(
+    name = "third_party_new",
+)
+
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+
+# XREPO
+#local_repository(
+#    name = "xpilot_build_tools",
+#    path = "../bazel_configs",
+#)
+
